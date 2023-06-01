@@ -1,7 +1,11 @@
+// Write a function `total` that accepts an array of numbers as an argument. The function should return
+// the total sum of all elements of the array.
+
 function total(arr)
 {
     let sum = 0;
-    for (i = 0; i < arr.length; i ++)
+
+    for (let i = 0; i < arr.length; i++)
     {
         let element = arr[i];
         sum = sum + element;

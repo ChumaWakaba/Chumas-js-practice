@@ -1,7 +1,10 @@
+// Write a function `stayPositive` that accepts an array of numbers as an argument. The function should
+// return an array containing only the positive numbers.
+
 function stayPositive(arr)
 {
     let newArr = [];
-    for (i = 0; i < arr.length; i ++)
+    for (let i = 0; i < arr.length; i++)
     {
         let element = arr[i];
         if (element > 0)
