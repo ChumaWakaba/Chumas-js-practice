@@ -15,3 +15,6 @@ console.log(movie.genre[1]); //thriller
 console.log(movie.duration); //undefined
 console.log(movie["starring"][1]); //Edward Norton
 console.log(movie.starring.length); //2
+
+
+
